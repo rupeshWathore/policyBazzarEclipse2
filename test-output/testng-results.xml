@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Using wait Time-->500]]>
+    </line>
+    <line>
+      <![CDATA[reading data from property file and data is key--> url]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser and Launching URL-->PB]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->1000]]>
+    </line>
+    <line>
+      <![CDATA[clicking On Home Page SignIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->1000]]>
+    </line>
+    <line>
+      <![CDATA[reading data from property file and data is key--> UserName]]>
+    </line>
+    <line>
+      <![CDATA[entering Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->1000]]>
+    </line>
+    <line>
+      <![CDATA[clicking On SignIn With Password]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->1000]]>
+    </line>
+    <line>
+      <![CDATA[reading data from property file and data is key--> password]]>
+    </line>
+    <line>
+      <![CDATA[entering Password]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->2000]]>
+    </line>
+    <line>
+      <![CDATA[clicking On SignIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->2000]]>
+    </line>
+    <line>
+      <![CDATA[clicking On MyAccount Button]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->2000]]>
+    </line>
+    <line>
+      <![CDATA[clicking On MyProfile Button]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->2000]]>
+    </line>
+    <line>
+      <![CDATA[reading data from property file and data is key--> ExpResult]]>
+    </line>
+    <line>
+      <![CDATA[Validating username]]>
+    </line>
+    <line>
+      <![CDATA[username-->Rupesh Uttam Wathore]]>
+    </line>
+    <line>
+      <![CDATA[Log out from Policy bazzar]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->3000]]>
+    </line>
+    <line>
+      <![CDATA[Using wait Time-->3000]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-28T10:30:25 IST" name="Default suite" finished-at="2023-07-28T10:30:53 IST" duration-ms="28644">
+    <groups>
+    </groups>
+    <test started-at="2023-07-28T10:30:25 IST" name="Default test" finished-at="2023-07-28T10:30:53 IST" duration-ms="28644">
+      <class name="test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener@1cf6d1be]" started-at="2023-07-28T10:30:25 IST" name="launchBrowser" finished-at="2023-07-28T10:30:29 IST" duration-ms="4457" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Using wait Time-->500]]>
+            </line>
+            <line>
+              <![CDATA[reading data from property file and data is key--> url]]>
+            </line>
+            <line>
+              <![CDATA[Opening browser and Launching URL-->PB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="LoginIntoPolicyBazzar()[pri:0, instance:test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener@1cf6d1be]" started-at="2023-07-28T10:30:29 IST" name="LoginIntoPolicyBazzar" finished-at="2023-07-28T10:30:45 IST" duration-ms="15696" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Using wait Time-->1000]]>
+            </line>
+            <line>
+              <![CDATA[clicking On Home Page SignIn Button]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->1000]]>
+            </line>
+            <line>
+              <![CDATA[reading data from property file and data is key--> UserName]]>
+            </line>
+            <line>
+              <![CDATA[entering Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->1000]]>
+            </line>
+            <line>
+              <![CDATA[clicking On SignIn With Password]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->1000]]>
+            </line>
+            <line>
+              <![CDATA[reading data from property file and data is key--> password]]>
+            </line>
+            <line>
+              <![CDATA[entering Password]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->2000]]>
+            </line>
+            <line>
+              <![CDATA[clicking On SignIn Button]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->2000]]>
+            </line>
+            <line>
+              <![CDATA[clicking On MyAccount Button]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->2000]]>
+            </line>
+            <line>
+              <![CDATA[clicking On MyProfile Button]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->2000]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginIntoPolicyBazzar -->
+        <test-method signature="validateUsernamePB()[pri:0, instance:test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener@1cf6d1be]" started-at="2023-07-28T10:30:45 IST" name="validateUsernamePB" finished-at="2023-07-28T10:30:45 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading data from property file and data is key--> ExpResult]]>
+            </line>
+            <line>
+              <![CDATA[Validating username]]>
+            </line>
+            <line>
+              <![CDATA[username-->Rupesh Uttam Wathore]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUsernamePB -->
+        <test-method is-config="true" signature="LogOutPB()[pri:0, instance:test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener@1cf6d1be]" started-at="2023-07-28T10:30:45 IST" name="LogOutPB" finished-at="2023-07-28T10:30:47 IST" duration-ms="2134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log out from Policy bazzar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOutPB -->
+        <test-method is-config="true" signature="ClosedChromeBrowser()[pri:0, instance:test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener@1cf6d1be]" started-at="2023-07-28T10:30:47 IST" name="ClosedChromeBrowser" finished-at="2023-07-28T10:30:53 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Using wait Time-->3000]]>
+            </line>
+            <line>
+              <![CDATA[Using wait Time-->3000]]>
+            </line>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClosedChromeBrowser -->
+      </class> <!-- test.PB_TC_1001_ValidatePB_UN_fromPropertyFile_Listener -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
